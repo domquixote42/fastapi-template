@@ -5,7 +5,7 @@ services:
         container_name: gitops-goaccess-test-001
         restart: always
         ports:
-            - '7880:8880'
+            - '8880:7880'
         environment:
             - TZ=America/New_York         
             - SKIP_ARCHIVED_LOGS=False #optional
